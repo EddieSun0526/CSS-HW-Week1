@@ -43,24 +43,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* 全域設定 */
+*, *::before, *::after { 
+    box-sizing: border-box; 
+    /* outline:1px solid black; */
+ } 
 
 body{
     font-family: Castoro;
     line-height: 1.5;
 }
 
-/* 全域設定 */
 .container{
     max-width: 1296px;
     margin: 0 auto;
     font-family: Castoro, serif;
     font-size: 24px;
 }
-
-*, *::before, *::after { 
-    box-sizing: border-box; 
-    /* outline:1px solid black; */
- } 
 
  a{
     text-decoration: none;
@@ -72,9 +71,6 @@ body{
     max-width: 100%;
     vertical-align: middle;
  }
-
-
-
 
 /* Header 設定 */
 .header{
@@ -105,7 +101,6 @@ body{
     font-size: 32px;
     margin-left: auto;
 }
-
 
 /* Main Area 設定 */
 .main{
@@ -138,8 +133,6 @@ footer{
 .social-link li{
     display: inline-block;
 }
-
-
 
 /* 模組化設定 */
 .w-50{
